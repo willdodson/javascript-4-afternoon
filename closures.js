@@ -249,7 +249,7 @@ to 5. What we need to do is console.log(i) so that it logs like so:
 function timeOutCounter() {
   for (var i = 1; i <= 6; i++) {
     (function(index) {
-      setTimeout(function timer () {
+      setTimeout(function () {
         console.log(index);
       }, index * 1000);
     })(i-1)
